@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="#home">Basti</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#about">Über mich</a></li>
+      </ul>
+      <button class="burger" aria-label="Menü öffnen">☰</button>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">Galerie</p>
+      <h1>Basti</h1>
+      <p class="hero-text">Ich zeige euch Bilder ;)</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#gallery">Galerie ansehen</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Galerie</h2>
+      <p class="section-text">Hier kannst du meine bearbeiteten Bilder anschauen.</p>
+<!--       <div class="grid gallery-grid">
+        <article class="gallery-card">
+          <img  class="thumb" src="ChatGPT Image 31. Mai 2026, 20_08_04.png" alt="Basti" />
+
+        </article>
+      </div> -->
+
+        <div class="grid" id="gallery">
+    <div class="thumb"><img src="Pics/360_F_488710566_04tsm0UWBwepU3xB.jpg" alt=""></div>
+    <div class="thumb"><img src="Pics/ChatGPT Image 31. Mai 2026, 20_08_04.png" alt=""></div>
+    <div class="thumb"><img src="Pics/photo-1503327431567-3ab5e6e79140.avif" alt=""></div>
+  </div>
+
+      <!-- Overlay -->
+      <div id="overlay">
+        <button id="close"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#e3e3e3"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></button>
+        <img id="overlay-img" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section alt">
+    <div class="container about">
+      <div>
+        <h2>Über mich</h2>
+        <p>Ich heiße Sebastian Ehrig und bearbeite Bilder mit Fokus auf Stil, Klarheit und Wirkung. Meine Arbeiten sind
+          für Leute, die saubere und moderne Visuals wollen.</p>
+      </div>
+      <div class="stats">
+        <div id="img-txt"></div>
+        <div><strong>24/7</strong><span>erreichbar</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">© 2026 Basti</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
